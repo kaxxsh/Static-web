@@ -1,0 +1,42 @@
+.header {
+  justify-content: center;
+  position: sticky;
+  top: 1rem;
+  display: flex;
+  align-items: center;
+  z-index: -10;
+}
+
+.head-nav {
+  display: flex;
+  flex-direction: row;
+  width: 20vw;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #006491;
+  border-radius: 15px;
+  margin-right: 30px;
+  margin-top: 20px;
+  padding: 10px 15px;
+  box-shadow: rgba(28, 8, 8, 0.15) 0px 0px 8px;
+}
+
+.navhead {
+  display: flex;
+  align-items: center;
+}
+
+.head-nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.head-nav a:hover {
+  color: #1c0808;
+}
+
+.divider {
+  width: 1.5px;
+  height: 30px;
+  background: rgb(255, 255, 255);
+}

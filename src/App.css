@@ -1,0 +1,41 @@
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* ::-webkit-scrollbar-thumb {
+  background: #666;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 20px;
+} */
+
+.logo {
+  position: sticky;
+  left: 0rem;
+  top: 0rem;
+}
+.pizza-logo {
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+  filter: drop-shadow(0px 0px 8px rgba(30, 52, 218, 0.4));
+  padding-left: 30px;
+  padding-top: 20px;
+  height: 70px;
+  width: 70px;
+  z-index: 12;
+}
+
+.pizza-logo:hover {
+  filter: drop-shadow(0px 0px 10px #006491);
+}
+
+.top {
+  color: #1c0808 !important;
+  display: flex;
+  align-items: flex-end;
+  padding-right: 3rem;
+}

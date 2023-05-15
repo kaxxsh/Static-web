@@ -1,0 +1,12 @@
+@font-face {
+  font-family: DOKYO;
+  src: url("./assets/DOKYO___.TTF");
+}
+
+body {
+  margin: 0;
+  font-family: DOKYO;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+}
